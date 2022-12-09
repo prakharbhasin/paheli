@@ -1,0 +1,8 @@
+.answered-questions-container {
+    width: 20%;
+    background-color: rgba(255, 0, 85, 0.75);
+    height: 75%;
+    border-radius: 7.5px;
+    color: white;
+}
+
