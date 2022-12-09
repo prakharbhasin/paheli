@@ -55,7 +55,9 @@ export const CurrentQuestion = ({
         })}
       </div>
       <div className='submit-container'>
-        <p>{`${hours}:${minutes}:${seconds}`}</p>
+        <p className='timer'>{`${hours.toString().padStart(2, "0")}:${minutes
+          .toString()
+          .padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`}</p>
         {currentQuestionNumber === questionList.length - 1 && (
           <button
             className='submit-button'

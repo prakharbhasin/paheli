@@ -6,3 +6,11 @@
     color: white;
 }
 
+.answered-questions-body {
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-direction: column;
+}
+

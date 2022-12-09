@@ -64,3 +64,11 @@
     font-size: 1.25rem;
 }
 
+.timer {
+    font-size: 1.25em;
+    font-weight: 500;
+    border: 3px solid #f05;
+    padding: 0.25%;
+    border-radius: 5px;
+}
+
